@@ -32,7 +32,7 @@ html {
 
 .banner-content {
   position: absolute;
-  left: 5%;
+  left: 0;
   bottom: 0;
   color: #fff;
 }
@@ -42,7 +42,12 @@ html {
   .banner {
     position: relative;
     overflow: hidden;
-    max-height: 30em;
+    max-height: 50em;
+  }
+
+  .banner-content {
+    position: absolute;
+    bottom: 5%;
   }
 
 }
@@ -53,6 +58,29 @@ html {
     position: relative;
     overflow: hidden;
     max-height: 25em;
+  }
+
+  .banner-content {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    max-height: 20em;
+  }
+
+}
+
+@media only screen and (min-width: 960px) {
+
+  .banner {
+    position: relative;
+    overflow: hidden;
+    max-height: 24em;
+  }
+
+  .banner-content {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
   }
 
 }
