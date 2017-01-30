@@ -36,3 +36,13 @@ html {
   bottom: 0;
   color: #fff;
 }
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    position: relative;
+    overflow: hidden;
+    max-height: 20em;
+  }
+
+}
