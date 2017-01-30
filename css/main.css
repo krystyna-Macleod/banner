@@ -37,12 +37,22 @@ html {
   color: #fff;
 }
 
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    position: relative;
+    overflow: hidden;
+    max-height: 30em;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   .banner {
     position: relative;
     overflow: hidden;
-    max-height: 20em;
+    max-height: 25em;
   }
 
 }
